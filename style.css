@@ -56,6 +56,7 @@ footer {
     float:left;/*explicado anteriormente*/
     padding:15px;/*explicado anteriormente*/
     display: block;
+    overflow:hidden;
 }
 .bclara {
     border: 1px solid #fafbf6;/*define respectivamente o tamanho tipo e dor da borda*/

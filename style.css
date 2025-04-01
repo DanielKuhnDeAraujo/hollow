@@ -156,6 +156,16 @@ footer {
         padding:8px 10px;/*explicado anteriormente*/
         font-size:13px;/*tamanho da fonte*/
     }
+    .coluna-50r p {
+        font-size: 15px;
+    }
+    footer {
+        height: 300px;
+        font-size: 15px;
+    }
+    footer div{
+        margin:20px;
+    }
 }
 .trinta {
     width: 30%;
@@ -187,4 +197,16 @@ footer {
 }
 #atb {
     height:200px;
+}
+#bcv {
+    color: #0f0f1b;/*explicado anteriormente*/
+    border: 1px solid #0f0f1b;/*explicado anteriormente*/
+    background-color: #c6b7be;/*define cor do fundo*/
+}
+#bcv:hover {
+    color: #c6b7be;/*explicado anteriormente*/
+    background-color: #0f0f1b;/*explicado anteriormente*/
+}
+.dm p {
+    font-size: 15px;
 }

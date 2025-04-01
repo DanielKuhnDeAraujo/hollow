@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;/*permite que o padding seja colocado dentro da altura e largura da div, sem aumentá-las*/
+}
+body {
+     margin:0; /*define a margem como zero */
+}
+.topo {
+    text-align: center; /*alinha o texto  no centro*/
+    background-color: #0f0f1b;/*define cor do fundo*/ /*define a cor do fundo*/
+    padding: 20px; /*cria o padding q é como uma bora só que dentro do elemento*/
+}
+.topo h2 {
+    color: #fafbf6 ;/*define a cor do texto*/
+    font-size: 50px; /*define o tamanho da fonte*/
+    font-family: 'Roboto', sans-serif; /*define a fonte como Roboto da família sans serif*/
+
+}
+.menu {
+    text-decoration: none;  /*tira as coisas de link nos links. deixa com a cor padrão (preta), e sem o underline*/
+    display: flex;/*define o modo que os elementos vao aparecer como flexboc*/
+    justify-content: center;/*essa linha e a anterior eu uso pra alinhar o texto do menu no centro.*/
+    background-color: #0f0f1b;/*define cor do fundo*//*define a cor do fundo*/ 
+    overflow: hidden; /* se passar do tamanho máximo fica escondido */
+
+}
+.menu a {
+    padding: 14px 16px;/*define o padding(já expliquei antes)*/
+    float:left;/*faz o texto flutuar para a esquerda*/
+    display:block;/*faz os elementos ficarem em froma de blcoos*/
+    color:#fafbf6;/*define a cor do texto*/
+    text-decoration:none;/*tira as coisas de link do link como a cor azul e o underline*/
+    transition:1s;/*coloca uma transição pra quando eu tirar o hover*/
+}
+
+.menu a:hover{ /*o :hover indica ue vai fazer isso quando o mouse estiver emcima do elemento*/
+    background-color: #fafbf6;/*define cor do fundo*/
+    color:black;/*define a cor do texto*/
+    transition: 1s;/*define o tempo de trnasição de quando tásem hover pro hover*/
+ 
+}
+.textop {
+    background-color: #565a75;/*define cor do fundo*/
+    width: 100%;/*define a largura*/
+    padding:15px;/*define o padding*/
+    float: left;/*faz o texto flutuar pra esquerda*/
+    color:#fafbf6;/*define a cor do texto*/
+}
+.textop hr {
+    border-color: #fafbf6; /*define a cor da borda . cmomo está sendo usado em um hr define a cor do hr*/
+}
+footer {
+    background-color: #0f0f1b;/*define cor do fundo*/
+    color:#fafbf6;/*define a cor do texto*/
+    width:100%;/*explicado anteriormente*/
+    height:200px;/*define a altura*/
+    float:left;/*explicado anteriormente*/
+    padding:15px;/*explicado anteriormente*/
+    display: block;
+}
+.bclara {
+    border: 1px solid #fafbf6;/*define respectivamente o tamanho tipo e dor da borda*/
+}
+.bescura {
+    border: 1px solid #fafbf6; /*explicado anteriormente*/
+}
+.ptexto {
+    background-color:#096040 ;/*define cor do fundo*/
+    padding: 15px;/*explicado anteriormente*/
+    color:#fafbf6;/*explicado anteriormente*/
+    float: right;/*faz o elemento flutuar pra esquerda*/
+}
+.coluna-50l {
+    width:50%;/*explicado anteriormente*/
+    float:left;/*explicado anteriormente*/
+    background-color: #c6b7be;/*define cor do fundo*/
+    padding:15px 15px; /*explicado anteriormente*/
+    text-align: center;/*alinha o texto no centro*/
+    height:300px;/*explicado anteriormente*/
+}
+.coluna-50r {
+    width:50%;/*explicado anteriormente*/
+    float:left;/*explicado anteriormente*/
+    background-color: #c6b7be;/*define cor do fundo*/
+    color:#0f0f1b;/*explicado anteriormente*/
+    padding:15px 15px;/*explicado anteriormente*/
+    text-align: justify; /*deixa o texto justificado*/
+    color: #0f0f1b;   /*explicado anteriormente*/
+    height:300px;/*explicado anteriormente*/
+    overflow: hidden; /*explicado anteriormente*/
+}
+.textof
+{
+    font-weight:500; /*define a grossura/peso de fonte*/
+    box-shadow: 5px 5px #0f0f1ba1; /*aplica uma sombra*/
+    padding:10px 20px 50px 20px;/*explicado anteriormente*/
+    border:3px solid #0f0f1baa;/*explicado anteriormente*/
+    height:250px;
+}
+.textof p {
+    font-size: 20px;
+}
+#b1 {
+    color: #0f0f1b;/*explicado anteriormente*/
+    border: 1px solid #0f0f1b;/*explicado anteriormente*/
+    background-color: #c6b7be;/*define cor do fundo*/
+}
+#b1:hover {
+    color: #c6b7be;/*explicado anteriormente*/
+    background-color: #0f0f1b;/*explicado anteriormente*/
+}
+.b2 {
+    color: #fafbf6;/*explicado anteriormente*/
+    background-color: #565a75;/*explicado anteriormente*/
+    border: 1px solid #fafbf6;/*explicado anteriormente*/
+}
+.b2:hover {
+    color: #565a75;/*explicado anteriormente*/
+    background-color: #fafbf6;/*define cor do fundo*/
+}
+.coluna-50l img {
+    height:96%;/*explicado anteriormente*/
+    border-radius: 50%;/*faz a borda ficar arredondada*/
+    object-fit: cover;/*faz a imagem cobrir todo o circulo*/
+    aspect-ratio: 1/1;/*faz a imagem n ficar distorcida com o objectfit e o border radius*/
+    border:3px solid #0f0f1b;/*explicado anteriormente*/
+    
+}
+.btn {
+    padding: 10px;/*explicado anteriormente*/
+    border-radius: 10px;/*explicado anteriormente*/
+    text-decoration: none;/*explicado anteriormente*/
+    transition: 1s;/*explicado anteriormente*/
+    float:right;/*explicado anteriormente*/
+}
+.btn:hover {
+    transition: 1s;/*explicado anteriormente*/
+    padding: 10px;/*explicado anteriormente*/
+    transform: scale(1.1,1.1);/*mexe na escala(x,y) do objecto*/
+    border-radius: 10px;/*explicado anteriormente*/
+    text-decoration: none;/*explicado anteriormente*/
+    
+}
+.tc {
+    text-align: center;/*explicado anteriormente*/
+}
+#cbtn {
+    text-align: center;/*explicado anteriormente*/
+    float: none;/*explicado anteriormente*/
+}
+/*aqui começa a responsividade. isso só vai acontecer se a largura maxima for igual ou menor á 600px*/
+@media (max-width:600px) {
+    .coluna-50l , .coluna-50r {
+        width:100%;/*explicado anteriormente*/
+    }
+    .menu {
+        padding:8px 10px;/*explicado anteriormente*/
+        font-size:13px;/*tamanho da fonte*/
+    }
+}
+.trinta {
+    width: 30%;
+    float:left;
+}
+.hollow {
+    background-color: #565a75;
+    color:#fafbf6;
+    padding: 10px;
+}
+#det{
+    background-color: #c6b7be;
+    color: #0f0f1b; 
+    font-size: 25px;
+}
+#det a{
+    text-decoration: underline;
+    color: #0f0f1b; 
+}
+.hornet {
+    background-color: #C63A4E;
+    color:#fafbf6;
+    padding: 10px;
+}
+.zote {
+    background-color: #3E2D57;
+    color:#fafbf6;
+    padding: 10px;
+}
+#atb {
+    height:200px;
+}

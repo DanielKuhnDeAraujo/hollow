@@ -56,7 +56,7 @@ footer {
     float:left;/*explicado anteriormente*/
     padding:15px;/*explicado anteriormente*/
     display: block;
-    overflow:hidden;
+    overflow: hidden;
 }
 .bclara {
     border: 1px solid #fafbf6;/*define respectivamente o tamanho tipo e dor da borda*/
@@ -150,7 +150,11 @@ footer {
 }
 /*aqui começa a responsividade. isso só vai acontecer se a largura maxima for igual ou menor á 600px*/
 @media (max-width:600px) {
-    .coluna-50l , .coluna-50r {
+    .coluna-50l , .coluna-50r  {
+        width:100%;/*explicado anteriormente*/
+    }
+    .coluna-50ld, .coluna-50rd  {
+        float:none;
         width:100%;/*explicado anteriormente*/
     }
     .menu {
@@ -216,4 +220,17 @@ footer {
 }
 .dm p {
     font-size: 15px;
+}
+.d {
+    background-color: #517585;/*define cor do fundo*/
+    padding:10; /*explicado anteriormente*/
+}
+.g {
+    background-color: #499763;/*define cor do fundo*/
+    padding:10px; /*explicado anteriormente*/
+    
+}        
+.l /*flavio*/ {
+    background-color: #564888;/*define cor do fundo*/
+    padding:15px 15px; /*explicado anteriormente*/
 }

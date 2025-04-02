@@ -235,3 +235,6 @@ footer {
     background-color: #564888;/*define cor do fundo*/
     padding:15px 15px; /*explicado anteriormente*/
 }
+img {
+    width:96vw;
+}

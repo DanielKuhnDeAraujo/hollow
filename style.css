@@ -97,7 +97,6 @@ footer {
     padding:10px 20px 50px 20px;/*explicado anteriormente*/
     border:3px solid #0f0f1baa;/*explicado anteriormente*/
     height:250px;
-    overflow:hidden;
 }
 .textof p {
     font-size: 20px;

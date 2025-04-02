@@ -178,6 +178,9 @@ footer {
     .dm p {
         font-size: 7px;
     }
+    img {
+    width:96vw;
+    }
 }
 .trinta {
     width: 30%;
@@ -234,7 +237,4 @@ footer {
 .l /*flavio*/ {
     background-color: #564888;/*define cor do fundo*/
     padding:15px 15px; /*explicado anteriormente*/
-}
-img {
-    width:96vw;
 }

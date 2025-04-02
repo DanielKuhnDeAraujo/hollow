@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;/*permite que o padding seja colocado dentro da altura e largura da div, sem aumentá-las*/
+    overflow:hidden;
 }
 body {
      margin:0; /*define a margem como zero */

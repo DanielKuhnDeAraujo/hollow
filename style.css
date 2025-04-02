@@ -77,6 +77,7 @@ footer {
     padding:15px 15px; /*explicado anteriormente*/
     text-align: center;/*alinha o texto no centro*/
     height:300px;/*explicado anteriormente*/
+    overflow: hidden;
 }
 .coluna-50r {
     width:50%;/*explicado anteriormente*/
@@ -96,6 +97,7 @@ footer {
     padding:10px 20px 50px 20px;/*explicado anteriormente*/
     border:3px solid #0f0f1baa;/*explicado anteriormente*/
     height:250px;
+    overflow:hidden;
 }
 .textof p {
     font-size: 20px;
